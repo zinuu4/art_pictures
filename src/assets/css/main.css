@@ -863,6 +863,17 @@ h4 {
     display: none;
   }
 }
+.status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calc_div {
+  position: relative;
+  top: 15px;
+  left: 5px;
+}
 /*  */
 .feedback-slider-item {
   padding-bottom: 5rem;
