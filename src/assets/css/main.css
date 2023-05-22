@@ -836,7 +836,34 @@ h4 {
 .feedback {
   background-color: #f7e7e6;
   padding: 9rem 0;
+  overflow: hidden;
 }
+/*  */
+.feedback-block img {
+  width: 100%;
+}
+.main-slider-item img {
+  width: 100%;
+}
+.main-slider-btn {
+  top: 440%;
+}
+@media (max-width: 1200px) {
+  .main-slider-btn {
+    top: 240%;
+  }
+}
+@media (max-width: 991px) {
+  .main-slider-btn {
+    top: 185%;
+  }
+}
+@media (max-width: 767px) {
+  .main-slider-btn {
+    display: none;
+  }
+}
+/*  */
 .feedback-slider-item {
   padding-bottom: 5rem;
 }
